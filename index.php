@@ -20,10 +20,8 @@ if (!isset($_POST['submit'])) { // if page is not submitted to itself echo the f
                 <form method="post" action="<?php  echo $PHP_SELF; ?>">
                          <input type="text" class="text" maxlength="99" name="whomtosent" placeholder="Word"><br><br>
                          <input type="submit" name="submit" class="button" value="Submit">			
-                </form></center>
-
-
-                       <center><font class="heading"><strong><font color="red" size="5">!!!<a href="<?php echo $site_link?>" style="text-decoration:none">  <?php echo $site_name ?>  </a>!!!</font><br>
+                </form>
+                       <font class="heading"><strong><font color="red" size="5">!!!<a href="<?php echo $site_link?>" style="text-decoration:none">  <?php echo $site_name ?>  </a>!!!</font><br>
                        <font color="#FF1493" size="5">-- <a href="<?php echo $site_link?>/contact" style="text-decoration:none">Contact us</a>--<br><br> <!--YOUR CONTACT PAGE LINK -->
                        </font></strong></center>
 <?php

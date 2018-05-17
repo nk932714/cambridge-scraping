@@ -1,9 +1,9 @@
-<?php
-    /***************   some Universal Constants here        **********************/
-   /*************/     $script_name = "Cambridge Dictionary";         /********************/
-  /*************/      $site_name = "Yor Site Name";         /*******************/
- /*************/       $site_link = "http://YOUR SITE LINK";  /******************/
-/**************        END OF UNIVERSAL CONSTANTS           ******************/
+<?php  
+    /***************   some Universal Constants here               **********************/
+   /*************/     $script_name = "Cambridge Dictionary";     /********************/
+  /*************/      $site_name = "Yor Site Name";              /*******************/
+ /*************/       $site_link = "http://YOUR SITE LINK";     /******************/
+/**************        END OF UNIVERSAL CONSTANTS               ******************/
 $whomtosent     = $_POST["whomtosent"];
 if (!isset($_POST['submit'])) { // if page is not submitted to itself echo the form
 ?>
